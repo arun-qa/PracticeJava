@@ -1,0 +1,19 @@
+package string;
+
+public class concat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s1="Arun";
+		String s2="Test";
+		String s3=s1.concat(s2);
+		System.out.println(s3);
+		s1=s1.concat("QA Engineer");
+		System.out.println(s1);
+		String s4=s1.substring(0, 2);
+		System.out.println(s4);
+
+	}
+
+}
